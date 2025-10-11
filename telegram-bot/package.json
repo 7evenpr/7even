@@ -1,0 +1,23 @@
+{
+  "name": "advanced-telegram-bot",
+  "version": "2.0.0",
+  "description": "Professional Telegram bot - Video yuklovchi va Musiqa topuvchi",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": ["telegram", "bot", "video", "downloader", "music", "recognition"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1",
+    "@distube/ytdl-core": "^4.13.3",
+    "ytdl-core": "^4.11.5",
+    "axios": "^1.6.2",
+    "form-data": "^4.0.0",
+    "better-sqlite3": "^9.2.2",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
